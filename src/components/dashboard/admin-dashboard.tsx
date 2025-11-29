@@ -75,7 +75,7 @@ export function AdminDashboard({ user }: AdminDashboardProps) {
               <Users size={20} className="text-blue-600" />
             </div>
             <div>
-              <p className="text-sm text-slate-500">Élèves</p>
+              <p className="text-sm text-slate-500">Étudiants</p>
               <p className="text-xl font-bold text-slate-900">{studentCount}</p>
             </div>
           </div>

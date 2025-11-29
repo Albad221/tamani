@@ -243,7 +243,7 @@ export default function AnalyticsPage() {
                       />
                     </div>
                     <p className="text-xs text-slate-500 mt-1">
-                      {cls.studentIds.length} élèves • {classGrades.length} notes
+                      {cls.studentIds.length} étudiants • {classGrades.length} notes
                     </p>
                   </div>
                 );

@@ -213,7 +213,7 @@ function TeacherGradesView({ teacherId }: { teacherId: string }) {
             <table className="w-full">
               <thead>
                 <tr className="border-b border-slate-200">
-                  <th className="text-left py-3 px-4 text-sm font-medium text-slate-500">Élève</th>
+                  <th className="text-left py-3 px-4 text-sm font-medium text-slate-500">Étudiant</th>
                   <th className="text-left py-3 px-4 text-sm font-medium text-slate-500">Évaluation</th>
                   <th className="text-left py-3 px-4 text-sm font-medium text-slate-500">Matière</th>
                   <th className="text-left py-3 px-4 text-sm font-medium text-slate-500">Date</th>

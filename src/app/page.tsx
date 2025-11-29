@@ -62,7 +62,7 @@ export default function LandingPage() {
                 href="/login"
                 className="bg-slate-900 hover:bg-slate-800 text-white px-5 py-2.5 rounded-full font-medium transition-all transform hover:scale-105 shadow-lg shadow-primary-500/20"
               >
-                Espace Élève
+                Espace Étudiant
               </Link>
             </div>
 
@@ -94,7 +94,7 @@ export default function LandingPage() {
                 href="/login"
                 className="bg-primary-500 text-white px-5 py-2 rounded-lg font-medium w-full text-center"
               >
-                Espace Élève
+                Espace Étudiant
               </Link>
             </div>
           </div>
@@ -170,7 +170,7 @@ export default function LandingPage() {
                 <div className="md:col-span-2 bg-slate-800 rounded-lg overflow-hidden relative h-64 md:h-auto">
                   <Image
                     src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1000&h=600&fit=crop"
-                    alt="Élèves Tamani"
+                    alt="Étudiants Tamani"
                     fill
                     className="object-cover opacity-70"
                   />
@@ -209,7 +209,7 @@ export default function LandingPage() {
               Une architecture en trois piliers
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Tout a été pensé pour simplifier les usages réels des élèves et de l&apos;administration.
+              Tout a été pensé pour simplifier les usages réels des étudiants et de l&apos;administration.
             </p>
           </div>
 
@@ -240,7 +240,7 @@ export default function LandingPage() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Média interne exclusif</h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Des formats d&apos;apprentissage vivants. Podcasts, capsules vidéos et fiches créés par et pour les élèves.
+                Des formats d&apos;apprentissage vivants. Podcasts, capsules vidéos et fiches créés par et pour les étudiants.
               </p>
               <ul className="space-y-2 text-sm text-slate-500">
                 <li className="flex items-center gap-2">
@@ -283,7 +283,7 @@ export default function LandingPage() {
           <div className="flex flex-col lg:flex-row items-center gap-16">
             <div className="lg:w-1/2">
               <h2 className="text-3xl md:text-5xl font-bold mb-6 font-display">
-                Les élèves sont des{' '}
+                Les étudiants sont des{' '}
                 <span className="bg-gradient-to-r from-primary-400 to-cyan-400 bg-clip-text text-transparent">
                   apprenants
                 </span>{' '}
@@ -295,7 +295,7 @@ export default function LandingPage() {
               </h2>
               <p className="text-lg text-slate-300 mb-8 leading-relaxed">
                 Tamani transforme la passivité en créativité. L&apos;application offre des espaces pour publier,
-                partager et valoriser le travail des élèves au sein de l&apos;école.
+                partager et valoriser le travail des étudiants au sein de l&apos;école.
               </p>
 
               <div className="grid grid-cols-2 gap-6">
@@ -316,7 +316,7 @@ export default function LandingPage() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-700 group">
                 <Image
                   src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=1000&h=700&fit=crop"
-                  alt="Élèves créateurs"
+                  alt="Étudiants créateurs"
                   width={600}
                   height={400}
                   className="object-cover transform group-hover:scale-105 transition-transform duration-700"
@@ -333,7 +333,7 @@ export default function LandingPage() {
                     />
                     <div className="text-sm">
                       <p className="font-bold">Amina K.</p>
-                      <p className="text-slate-300">Élève en Terminale</p>
+                      <p className="text-slate-300">Étudiante en MBA 1</p>
                     </div>
                   </div>
                   <p className="italic text-lg">
@@ -356,15 +356,15 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-slate-900 font-display">
-              Une expérience qui élève les standards
+              Une expérience qui rehausse les standards
             </h2>
             <div className="w-24 h-1 bg-primary-500 mx-auto mt-4 rounded-full" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: 'Pour les élèves', desc: 'Motivation, confiance et esprit d\'équipe. Une approche "apprendre en faisant".', color: 'primary' },
-              { title: 'Pour l\'orientation', desc: 'Création de portfolios concrets et lisibles pour les dossiers post-bac.', color: 'cyan' },
+              { title: 'Pour les étudiants', desc: 'Motivation, confiance et esprit d\'équipe. Une approche "apprendre en faisant".', color: 'primary' },
+              { title: 'Pour la carrière', desc: 'Création de portfolios concrets et lisibles pour les recruteurs et MBA.', color: 'cyan' },
               { title: 'Pour la pédagogie', desc: 'Plus de clarté et d\'agilité. Des cours perçus comme utiles et actuels.', color: 'purple' },
               { title: 'Pour l\'attractivité', desc: 'Une identité singulière d\'école innovante qui séduit et fidélise.', color: 'pink' },
             ].map((item, idx) => (

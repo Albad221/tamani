@@ -58,7 +58,7 @@ export default function UsersPage() {
           <p className="text-2xl font-bold text-slate-900">{stats.total}</p>
         </Card>
         <Card className="p-4 cursor-pointer" hover onClick={() => setFilter('student')}>
-          <p className="text-sm text-slate-500">Élèves</p>
+          <p className="text-sm text-slate-500">Étudiants</p>
           <p className="text-2xl font-bold text-blue-600">{stats.students}</p>
         </Card>
         <Card className="p-4 cursor-pointer" hover onClick={() => setFilter('teacher')}>
@@ -92,7 +92,7 @@ export default function UsersPage() {
                 size="sm"
                 onClick={() => setFilter(f)}
               >
-                {f === 'all' ? 'Tous' : f === 'student' ? 'Élèves' : f === 'teacher' ? 'Profs' : 'Admins'}
+                {f === 'all' ? 'Tous' : f === 'student' ? 'Étudiants' : f === 'teacher' ? 'Profs' : 'Admins'}
               </Button>
             ))}
           </div>
@@ -143,7 +143,7 @@ export default function UsersPage() {
                           }
                           className="capitalize"
                         >
-                          {user.role === 'student' ? 'Élève' : user.role === 'teacher' ? 'Prof' : 'Admin'}
+                          {user.role === 'student' ? 'Étudiant' : user.role === 'teacher' ? 'Prof' : 'Admin'}
                         </Badge>
                       </td>
                       <td className="py-3 px-4 text-slate-600">

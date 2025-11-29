@@ -230,7 +230,7 @@ export function TeacherDashboard({ user }: TeacherDashboardProps) {
                 >
                   <div>
                     <p className="font-medium text-slate-900">{cls.name}</p>
-                    <p className="text-sm text-slate-500">{cls.studentIds.length} élèves</p>
+                    <p className="text-sm text-slate-500">{cls.studentIds.length} étudiants</p>
                   </div>
                   <div className="flex gap-2">
                     <Link

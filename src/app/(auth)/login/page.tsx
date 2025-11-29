@@ -102,7 +102,7 @@ export default function LoginPage() {
                 <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
                   <User size={20} className="text-blue-600" />
                 </div>
-                <span className="text-xs font-medium text-slate-700">Élève</span>
+                <span className="text-xs font-medium text-slate-700">Étudiant</span>
               </button>
               <button
                 onClick={() => handleQuickLogin('teacher')}
