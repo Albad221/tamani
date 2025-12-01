@@ -294,8 +294,7 @@ export default function LandingPage() {
                 .
               </h2>
               <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-                Tamani transforme la passivité en créativité. L&apos;application offre des espaces pour publier,
-                partager et valoriser le travail des étudiants au sein de l&apos;école.
+                Exprimez-vous ! Avec Tamani App, publiez, partagez, échangez entre étudiants.
               </p>
 
               <div className="grid grid-cols-2 gap-6">
