@@ -212,7 +212,7 @@ export const grades: Grade[] = [
 export const homework: Homework[] = [
   {
     id: 'hw-1',
-    title: 'Cofina Analyse financière - Cas Orange CI',
+    title: 'Analyse financière - Cas Cofina',
     description: 'Réaliser une analyse financière complète de Cofina sur les 3 derniers exercices. Inclure ratios, diagnostic et recommandations.',
     subjectId: 'subject-1',
     teacherId: 'teacher-1',
@@ -631,7 +631,7 @@ export const comments: Comment[] = [
 // Notifications
 export const notifications: Notification[] = [
   { id: 'notif-1', userId: 'student-1', type: 'grade', title: 'Nouvelle note', body: 'Vous avez reçu 17/20 en Business Plan Startup', link: '/dashboard/grades', read: false, createdAt: '2024-11-29T08:00:00' },
-  { id: 'notif-2', userId: 'student-1', type: 'homework', title: 'Devoir à rendre', body: 'Cofina Analyse financière - Cas Orange CI - Dans 3 jours', link: '/dashboard/homework/hw-1', read: false, createdAt: '2024-11-29T07:00:00' },
+  { id: 'notif-2', userId: 'student-1', type: 'homework', title: 'Devoir à rendre', body: 'Analyse financière - Cas Cofina - Dans 3 jours', link: '/dashboard/homework/hw-1', read: false, createdAt: '2024-11-29T07:00:00' },
   { id: 'notif-3', userId: 'student-1', type: 'message', title: 'Nouveau message', body: 'Prof. Mensah vous a répondu', link: '/dashboard/messages/conv-1', read: true, createdAt: '2024-11-28T14:00:00' },
   { id: 'notif-4', userId: 'student-1', type: 'media', title: 'Contenu mis en avant', body: 'Votre infographie sur les métiers de la finance est featured!', link: '/dashboard/media/media-3', read: true, createdAt: '2024-11-18T12:00:00' },
   { id: 'notif-5', userId: 'student-1', type: 'attendance', title: 'Retard enregistré', body: 'Retard de 10 min en Business English', link: '/dashboard/attendance', read: true, createdAt: '2024-11-25T16:00:00' },
