@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Tamani App - Plateforme Académique',
-  description: 'L\'application qui centralise la vie scolaire et transforme l\'école en média inspirant.',
+  description: 'L\'application qui centralise la vie étudiante et transforme l\'école en média inspirant.',
 };
 
 export default function RootLayout({

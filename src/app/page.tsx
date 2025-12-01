@@ -114,7 +114,7 @@ export default function LandingPage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary-500"></span>
               </span>
-              La nouvelle expérience scolaire à Abidjan
+              La nouvelle expérience étudiante à Abidjan
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold text-slate-900 leading-tight mb-6 font-display">
@@ -125,7 +125,7 @@ export default function LandingPage() {
             </h1>
 
             <p className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Centralisez votre vie scolaire et transformez votre quotidien.
+              Centralisez votre vie étudiante et transformez votre quotidien.
               Une seule app pour le planning, les résultats et la création de contenu.
             </p>
 
@@ -176,7 +176,7 @@ export default function LandingPage() {
                   />
                   <div className="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/90 to-transparent text-white">
                     <span className="bg-primary-500 text-xs font-bold px-2 py-1 rounded mb-2 inline-block">
-                      Vie Scolaire
+                      Vie Étudiante
                     </span>
                     <h3 className="text-xl font-bold">La semaine des Arts</h3>
                     <p className="text-slate-300 text-sm mt-1">Reportage • Par le Club Journal • 5 min</p>
@@ -219,7 +219,7 @@ export default function LandingPage() {
               <div className="w-14 h-14 bg-primary-100 text-primary-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <LayoutDashboard size={28} />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Vie scolaire centralisée</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Vie étudiante centralisée</h3>
               <p className="text-slate-600 leading-relaxed mb-4">
                 Une expérience fluide et intuitive. Retrouvez vos plannings, notes, absences et scolarité en un seul clic.
               </p>
@@ -393,7 +393,7 @@ export default function LandingPage() {
                 <span className="text-xl font-bold">TamaniApp</span>
               </div>
               <p className="text-sm max-w-xs">
-                L&apos;application qui centralise la vie scolaire et transforme l&apos;école en média inspirant.
+                L&apos;application qui centralise la vie étudiante et transforme l&apos;école en média inspirant.
                 Abidjan, Côte d&apos;Ivoire.
               </p>
             </div>
