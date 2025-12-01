@@ -219,7 +219,7 @@ export const homework: Homework[] = [
     classId: 'class-1',
     dueDate: '2024-12-02',
     publishedAt: '2024-11-25',
-    attachments: ['rapport-annuel-orange-ci.pdf'],
+    attachments: ['rapport-annuel-cofina.pdf'],
     maxScore: 20,
     type: 'individual',
   },
